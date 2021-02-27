@@ -16,7 +16,7 @@ import java.net.URL;
  */
 public class EmprestimoService {
 
-    static String webService = "http://localhost:8080/APIREST/webresources/emprestimo/";
+    static String webService = "http://localhost:8080/ApiRestEmprestimo/webresources/emprestimo/";
     static int codigoSucesso = 200;
 
     public boolean postEmprestimo(Usuario usuario) throws MalformedURLException, IOException {
